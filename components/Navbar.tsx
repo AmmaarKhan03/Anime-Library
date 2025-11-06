@@ -18,7 +18,7 @@ export default function Navbar({ isAuthenticated = false }: NavbarProps) {
                 <div className="flex justify-between h-16">
                     {/* Logo & Brand */}
                     <div className="flex items-center">
-                        <Link href="/" className="flex items-center">
+                        <Link href="/public" className="flex items-center">
               <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                 AnimeLib
               </span>
@@ -29,7 +29,7 @@ export default function Navbar({ isAuthenticated = false }: NavbarProps) {
                     <div className="hidden md:flex md:items-center md:space-x-4">
                         {/* Links for everyone */}
                         <Link
-                            href="/"
+                            href="/public"
                             className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium transition"
                         >
                             Home
@@ -121,7 +121,7 @@ export default function Navbar({ isAuthenticated = false }: NavbarProps) {
                     <div className="md:hidden pb-4">
                         <div className="flex flex-col space-y-2">
                             <Link
-                                href="/"
+                                href="/public"
                                 className="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-base font-medium"
                                 onClick={() => setMobileMenuOpen(false)}
                             >
