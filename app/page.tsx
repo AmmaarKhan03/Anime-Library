@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="bg-gradient-to-br from-blue-600 via-purple-600 to-pink-500 text-white py-20 px-8">
+            <section className="bg-neutral-800 text-white py-20 px-8">
                 <div className="max-w-6xl mx-auto text-center">
                     <h1 className="text-5xl md:text-6xl font-bold mb-6">
                         Your Personal Anime Library
@@ -30,7 +30,7 @@ export default function Home() {
             </section>
 
             {/* Features Section */}
-            <section className="py-20 px-8 bg-gray-50">
+            <section className="py-20 px-8 bg-neutral-800">
                 <div className="max-w-6xl mx-auto">
                     <h2 className="text-4xl font-bold text-center mb-12">
                         Everything You Need to Track Your Anime
@@ -38,55 +38,55 @@ export default function Home() {
 
                     <div className="grid md:grid-cols-3 gap-8">
                         {/* Feature 1 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
+                        <div className="bg-neutral-800 p-6 rounded-lg ">
                             <div className="text-4xl mb-4">📚</div>
                             <h3 className="text-xl font-bold mb-2">Personal Library</h3>
-                            <p className="text-gray-600">
+                            <p className="text-white">
                                 Keep track of what you're watching, completed, and plan to watch. Never lose your place again.
                             </p>
                         </div>
 
                         {/* Feature 2 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
+                        <div className="bg-neutral-800 p-6 rounded-lg ">
                             <div className="text-4xl mb-4">📊</div>
                             <h3 className="text-xl font-bold mb-2">Track Progress</h3>
-                            <p className="text-gray-600">
+                            <p className="text-white">
                                 Monitor your episodes watched, rate shows, and add personal notes to remember your thoughts.
                             </p>
                         </div>
 
                         {/* Feature 3 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
+                        <div className="bg-neutral-800 p-6 rounded-lg ">
                             <div className="text-4xl mb-4">🔍</div>
                             <h3 className="text-xl font-bold mb-2">Discover New Anime</h3>
-                            <p className="text-gray-600">
+                            <p className="text-white">
                                 Explore thousands of anime and manga with real-time data from AniList. Find your next favorite.
                             </p>
                         </div>
 
                         {/* Feature 4 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
+                        <div className="bg-neutral-800 p-6 rounded-lg ">
                             <div className="text-4xl mb-4">📁</div>
                             <h3 className="text-xl font-bold mb-2">Custom Collections</h3>
-                            <p className="text-gray-600">
+                            <p className="text-white">
                                 Organize your library with custom lists. Create collections for favorites, genres, or moods.
                             </p>
                         </div>
 
                         {/* Feature 5 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
+                        <div className="bg-neutral-800 p-6 rounded-lg ">
                             <div className="text-4xl mb-4">⭐</div>
                             <h3 className="text-xl font-bold mb-2">Rate & Review</h3>
-                            <p className="text-gray-600">
+                            <p className="text-white">
                                 Keep track of your ratings and write notes about each series. Build your personal anime diary.
                             </p>
                         </div>
 
                         {/* Feature 6 */}
-                        <div className="bg-white p-6 rounded-lg shadow-md">
+                        <div className="bg-neutral-800 p-6 rounded-lg ">
                             <div className="text-4xl mb-4">📈</div>
                             <h3 className="text-xl font-bold mb-2">Statistics</h3>
-                            <p className="text-gray-600">
+                            <p className="text-white">
                                 View detailed stats about your watching habits. Total episodes, favorite genres, and more.
                             </p>
                         </div>
@@ -95,7 +95,7 @@ export default function Home() {
             </section>
 
             {/* CTA Section */}
-            <section className="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-16 px-8">
+            <section className="bg-neutral-800 text-white py-16 px-8">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4">
                         Ready to Organize Your Anime?
